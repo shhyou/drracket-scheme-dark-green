@@ -12,14 +12,14 @@
             (framework:misspelled-text-color
              #(#xFF #x33 #x85))
             (framework:paren-match-color
-             #(#x55 #x55 #x55))
+             #(#x50 #x50 #x50))
 
             (drracket:syncheck:matching-identifiers
              #(#x66 #x66 #x66))
             (drracket:check-syntax:lexically-bound
-             #(#xFF #xFF #xFF))
+             #(#xF3 #xF3 #xF3))
             (drracket:check-syntax:imported
-             #(#x99 #xE6 #x99))
+             #(#xCC #xCC #xCC))
             (drracket:check-syntax:set!d
              #(#xFF #xFF #x66))
 
@@ -39,7 +39,7 @@
             (framework:syntax-color:scheme:symbol
              #(#xE3 #xE3 #xE3))
             (framework:syntax-color:scheme:keyword
-             #(#xBB #xBB #xBB))
+             #(#xAA #xAA #xAA) bold)
             (framework:syntax-color:scheme:constant
              #(#xCC #xFF #x33))
             (framework:syntax-color:scheme:string
@@ -47,7 +47,7 @@
             (framework:syntax-color:scheme:hash-colon-keyword
              #(#x73 #xE6 #x00))
             (framework:syntax-color:scheme:parenthesis
-             #(#x18 #xB1 #x18))))
+             #(#x18 #xB1 #x18) bold)))
           (name . "LightGreen"))))
 
 #|
