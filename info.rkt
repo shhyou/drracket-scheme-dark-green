@@ -2,8 +2,10 @@
 
 (define name "DrRacket Color Scheme - Light Green")
 (define collection "drracket-scheme-light-green")
+(define deps '("base"))
 (define framework:color-schemes
-  '(#hash((colors
+  '(#hash((white-on-black-base? . #t)
+          (colors
            .
            ((framework:basic-canvas-background
              #(#x33 #x33 #x33))
