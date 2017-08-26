@@ -18,6 +18,12 @@
 
             (drracket:syncheck:matching-identifiers
              #(#x66 #x66 #x66))
+            (drracket:syncheck:var-arrow
+             #(#x5E #xD6 #xFF))
+            (drracket:syncheck:template-arrow
+             #(#xFF #x00 #xC0))
+            (drracket:syncheck:tail-arrow
+             #(#xFF #xE0 #x50))
             (drracket:check-syntax:lexically-bound
              #(#xF3 #xF3 #xF3))
             (drracket:check-syntax:imported
@@ -43,49 +49,11 @@
             (framework:syntax-color:scheme:keyword
              #(#xAA #xAA #xAA) bold)
             (framework:syntax-color:scheme:constant
-             #(#xCC #xFF #x33))
+             #(#x00 #xED #xCD))
             (framework:syntax-color:scheme:string
              #(#x00 #xCC #xFF))
             (framework:syntax-color:scheme:hash-colon-keyword
-             #(#x73 #xE6 #x00))
+             #(#x60 #xCC #x21))
             (framework:syntax-color:scheme:parenthesis
              #(#x18 #xB1 #x18) bold)))
           (name . "LightGreen"))))
-
-#|
-From DrRacket message:
-
-color names:
-(drracket:syncheck:matching-identifiers
- framework:basic-canvas-background
- framework:default-text-color
- framework:misspelled-text-color
- framework:paren-match-color)
-style names:
-(drracket:check-syntax:both-obligation-style-pref
- drracket:check-syntax:free-variable
- drracket:check-syntax:imported
- drracket:check-syntax:lexically-bound
- drracket:check-syntax:my-obligation-style-pref
- drracket:check-syntax:set!d
- drracket:check-syntax:their-obligation-style-pref
- drracket:check-syntax:unk-obligation-style-pref
- drracket:check-syntax:unused-require
- drracket:read-eval-print-loop:error-color
- drracket:read-eval-print-loop:out-color
- drracket:read-eval-print-loop:value-color
- framework:syntax-color:scheme:comment
- framework:syntax-color:scheme:constant
- framework:syntax-color:scheme:error
- framework:syntax-color:scheme:hash-colon-keyword
- framework:syntax-color:scheme:keyword
- framework:syntax-color:scheme:other
- framework:syntax-color:scheme:parenthesis
- framework:syntax-color:scheme:string
- framework:syntax-color:scheme:symbol
- framework:syntax-color:scheme:text
- plt:htdp:test-coverage-off
- plt:htdp:test-coverage-on
- plt:module-language:test-coverage-off
- plt:module-language:test-coverage-on)
-|#
