@@ -43,15 +43,15 @@
             (framework:syntax-color:scheme:text
              #(#xFF #xFF #xFF)) ; What color to use?
             (framework:syntax-color:scheme:comment
-             #(#xFF #xCC #x00))
+             #(#xFF #xF0 #x7F))
             (framework:syntax-color:scheme:symbol
              #(#xE3 #xE3 #xE3))
             (framework:syntax-color:scheme:keyword
              #(#xAA #xAA #xAA) bold)
             (framework:syntax-color:scheme:constant
-             #(#x00 #xED #xCD))
-            (framework:syntax-color:scheme:string
              #(#x00 #xCC #xFF))
+            (framework:syntax-color:scheme:string
+             #(#xFF #xBB #x00))
             (framework:syntax-color:scheme:hash-colon-keyword
              #(#x60 #xCC #x21))
             (framework:syntax-color:scheme:parenthesis
