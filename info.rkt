@@ -36,6 +36,12 @@
             (drracket:read-eval-print-loop:value-color
              #(#x99 #xCC #xFF))
 
+            (plt:htdp:test-coverage-on
+             #(#xE3 #xE3 #xE3))
+            (plt:htdp:test-coverage-off
+             #(#xE3 #xE3 #xE3)
+             #s(background #(#x88 #x00 #x00)))
+
             (framework:syntax-color:scheme:error
              #(#xFF #x00 #x00))
             (framework:syntax-color:scheme:other
@@ -43,7 +49,7 @@
             (framework:syntax-color:scheme:text
              #(#xFF #xFF #xFF)) ; What color to use?
             (framework:syntax-color:scheme:comment
-             #(#xFF #xF0 #x7F))
+             #(#x88 #xB0 #xE0))
             (framework:syntax-color:scheme:symbol
              #(#xE3 #xE3 #xE3))
             (framework:syntax-color:scheme:keyword
@@ -51,7 +57,7 @@
             (framework:syntax-color:scheme:constant
              #(#x00 #xCC #xFF))
             (framework:syntax-color:scheme:string
-             #(#xFF #xBB #x00))
+             #(#xF0 #x90 #xFF))
             (framework:syntax-color:scheme:hash-colon-keyword
              #(#x60 #xCC #x21))
             (framework:syntax-color:scheme:parenthesis
