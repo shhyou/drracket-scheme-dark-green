@@ -14,7 +14,7 @@
             (framework:misspelled-text-color
              #(#xFF #x33 #x85))
             (framework:paren-match-color
-             #(#x50 #x50 #x50))
+             #(#x55 #x55 #x55))
 
             (drracket:syncheck:matching-identifiers
              #(#x66 #x66 #x66))
@@ -74,7 +74,7 @@
             (framework:misspelled-text-color
              #(#xFF #x33 #x85))
             (framework:paren-match-color
-             #(#x50 #x50 #x50))
+             #(#x55 #x55 #x55))
 
             (drracket:syncheck:matching-identifiers
              #(#x66 #x66 #x66))
