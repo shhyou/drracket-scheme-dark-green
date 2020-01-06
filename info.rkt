@@ -15,6 +15,8 @@
              #(#xFF #x33 #x85))
             (framework:paren-match-color
              #(#x55 #x55 #x55))
+            (framework:failed-background-color
+             #(#xFF #x00 #x00))
 
             (drracket:syncheck:matching-identifiers
              #(#x66 #x66 #x66))
@@ -35,6 +37,8 @@
              #(#xE6 #xE6 #xE6))
             (drracket:read-eval-print-loop:value-color
              #(#x99 #xCC #xFF))
+            (drracket:language-name-and-memory-use-at-top-of-interactions
+             #(#x50 #xA0 #x50))
 
             (plt:htdp:test-coverage-on
              #(#xE3 #xE3 #xE3))
@@ -75,6 +79,8 @@
              #(#xFF #x33 #x85))
             (framework:paren-match-color
              #(#x55 #x55 #x55))
+            (framework:failed-background-color
+             #(#xF0 #x00 #x00))
 
             (drracket:syncheck:matching-identifiers
              #(#x66 #x66 #x66))
@@ -95,6 +101,8 @@
              #(#xE6 #xE6 #xE6))
             (drracket:read-eval-print-loop:value-color
              #(#x99 #xCC #xFF))
+            (drracket:language-name-and-memory-use-at-top-of-interactions
+             #(#x50 #xA0 #x50))
 
             (plt:htdp:test-coverage-on
              #(#xE3 #xE3 #xE3))
